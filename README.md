@@ -8,6 +8,7 @@ Docker image create php and [some components](#components) on top of alpine linu
 * curl
 * openssl
 * php5
+* php5-ctype
 * php5-curl
 * php5-iconv
 * php5-json
