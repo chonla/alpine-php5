@@ -1,21 +1,21 @@
-# chonla/alpine-php7
+# chonla/alpine-php
 
-Docker image create php7 and [some components](#components) on top of alpine linux.
+Docker image create php and [some components](#components) on top of alpine linux.
 
 ## Components
 
 * git
 * curl
 * openssl
-* php7
-* php7-curl
-* php7-iconv
-* php7-json
-* php7-mcrypt
-* php7-openssl
-* php7-pdo
-* php7-pdo_sqlite
-* php7-phar
+* php5
+* php5-curl
+* php5-iconv
+* php5-json
+* php5-mcrypt
+* php5-openssl
+* php5-pdo
+* php5-pdo_sqlite
+* php5-phar
 * sqlite
 
 ## Maintainer

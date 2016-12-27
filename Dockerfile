@@ -5,6 +5,5 @@ MAINTAINER Chonlasith Jucksriporn <chonla@capabilify.com>
 RUN apk update \
     && apk add bash git curl openssl
 
-# Install php7 and minions
-RUN apk add php7 php7-mcrypt php7-phar php7-curl php7-pdo php7-json php7-pdo_sqlite sqlite php7-iconv php7-openssl \
-    && ln -s $(which php7) /usr/bin/php
+# Install php5 and minions
+RUN apk add php5 php5-mcrypt php5-phar php5-curl php5-pdo php5-json php5-pdo_sqlite sqlite php5-iconv php5-openssl
